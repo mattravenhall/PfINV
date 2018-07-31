@@ -13,15 +13,15 @@ bash setup.sh
 bash findINVs.sh -r=ref.fasta -s=samples.txt
 ```
 
-## Detecting inversions
+## src/
 - `setup.sh` Run to ensure that all required packages are installed. This will prompt to run as sudo.
 - `findINVs.sh` Core detection pipeline, run as `findINVs.sh -h` to return the help page. Note that chromosome/contig names should be formatted as &lt;sample>_&lt;chromosome>, with fastas named &lt;sample>.fasta.
 
-## Support Scripts
+## support/
 - `grabRef.sh` Download the references used for the [manuscript](MANUSCRIPT_LINK).
 - `embl2fasta.py` Convert embl files to fasta format (for input to `findINVs.sh`).
 
-## Manuscript Scripts
+## manuscript/
 These are the the scripts used to create the figures in the [manuscript](MANUSCRIPT_LINK) and are free to use and adapt by the wider community. Their filenames are indicative of their function.
 
 ### Raising Issues
