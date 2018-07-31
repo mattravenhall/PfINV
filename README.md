@@ -2,7 +2,7 @@
 Detection of inversions in _P. falciparum_ from long read assemblies.
 
 ## Overview
-This repo accompanies an [upcoming publication](MANUSCRIPT_LINK) describing the identification of inversions in long read _P. falciparum_ assemblies. It contains the core inversion detection script (src/), its support scripts (support/), and a number of scripts associated with the manuscript itself (manuscript/). The core discovery program is a command line Unix tool, built in bash and test in both Linux and MacOS environments. It relies on `nucmer`, which can be automatically installed with `setup.sh`.
+This repo accompanies an [upcoming publication](MANUSCRIPT_LINK) describing the identification of inversions in long read _P. falciparum_ assemblies. It contains the core inversion detection script (src/), its support scripts (support/), and a number of scripts associated with the manuscript itself (manuscript/). The core discovery program is a command line Unix tool, built in bash and tested in both Linux and MacOS environments. It relies on `nucmer`, which can be automatically installed with `setup.sh`.
 
 ## Quick Run
 ```bash
