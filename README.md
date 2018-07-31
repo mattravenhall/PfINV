@@ -22,7 +22,7 @@ bash findINVs.sh -r=ref.fasta -s=samples.txt
 - `embl2fasta.py` Convert embl files to fasta format (for input to `findINVs.sh`).
 
 ## Manuscript Scripts
-These athe the scripts used to create the figures in the [manuscript](MANUSCRIPT_LINK) and are free to use and adapt by the wider community. Their filenames are indicative of their function.
+These are the the scripts used to create the figures in the [manuscript](MANUSCRIPT_LINK) and are free to use and adapt by the wider community. Their filenames are indicative of their function.
 
 ### Raising Issues
 If you find bugs, please raise them as a [github issue](https://github.com/mattravenhall/PfINV/issues). For questions regarding the manuscript, email me at matt.ravenhall@lshtm.ac.uk.
